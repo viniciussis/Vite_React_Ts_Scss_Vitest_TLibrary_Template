@@ -1,14 +1,33 @@
-$cyan: hsl(180, 66%, 49%);
-$cyan-opaque: hsl(180, 38%, 63%);
-$dark-violet: hsl(257, 27%, 26%);
-$red: hsl(0, 87%, 67%);
-$gray: hsl(0, 0%, 75%);
-$grayish-violet: rgb(158, 154, 167);
-$gray-opaque: hsla(0, 0%, 75%, 0.25);
-$very-dark-blue: hsl(255, 11%, 22%);
-$very-dark-violet: hsl(260, 8%, 14%);
+$--theme-primary: --theme-primary;
+$--theme-secondary: --theme-secondary;
+$--theme-surface: --theme-surface;
+$--theme-background: --theme-background;
+$--theme-on-primary: --theme-on-primary;
+$--theme-on-secondary: --theme-on-secondary;
+$--theme-on-surface: --theme-on-surface;
 
-$font-primary: 'Montserrat';
+$theme-map-light: (
+  $--theme-primary: #d75894,
+  $--theme-secondary: #9b3dca,
+  $--theme-surface: #fff,
+  $--theme-background: #fafafa,
+  $--theme-on-primary: #fff,
+  $--theme-on-secondary: #fff,
+  $--theme-on-surface: #000,
+);
+
+$theme-map-dark: (
+  $--theme-primary: #f34c83,
+  $--theme-secondary: #c298dc,
+  $--theme-surface: #2f2b2b,
+  $--theme-background: #1b1918,
+  $--theme-on-primary: #443e41,
+  $--theme-on-secondary: #000,
+  $--theme-on-surface: #f5f1f2,
+);
+
+$font-titles: 'Poppins';
+$font-text: 'Montserrat';
 $font-size: 18px;
 $mobile-width: 375px;
-$desktop-width: 1440px;
+$desktop-width: 1250px;

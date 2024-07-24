@@ -1,3 +1,11 @@
+:root.light {
+  @include mixins.spread-map(variables.$theme-map-light);
+}
+
+:root.dark {
+  @include mixins.spread-map(variables.$theme-map-dark);
+}
+
 body {
   min-height: 100vh;
   box-sizing: border-box;

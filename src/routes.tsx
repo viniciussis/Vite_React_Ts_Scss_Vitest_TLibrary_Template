@@ -6,8 +6,9 @@ import './assets/styles/typography.scss'
 const AppRoutes = () => {
 
   return (
-    <main>
-    </main>
+    <h1>
+      Hello World
+    </h1>
   )
 }
 
